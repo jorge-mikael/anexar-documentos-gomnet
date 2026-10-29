@@ -1,0 +1,28 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Arquivos do pyinstaller
+build/
+dist/
+
+# Driver chromedriver
+drivers/
+
+# Pasta de enexar
+anexar/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Configurações locais e segredos
+.env
+.env.*
+
+# Arquivos locais do banco SQLite
+*.sqlite3
+*.db
+
+# Configurações do VS Code
+.vscode/
